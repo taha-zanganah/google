@@ -1,0 +1,149 @@
+$acshan-color:(rgb(187, 185, 185));
+$margin-margin:(50px);
+// @mixin flex($items,$justify){
+//     display: flex;
+//     align-items: $items;
+//     justify-content: $justify;
+// }
+body{ 
+    background-color: rgb(2, 3, 60);
+    main{
+        .hero{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            width: 100vw;
+            height: 100vh;
+            // border-bottom: none;
+            header{
+                nav{
+                    font-size: 20px;
+                    .img-icon{
+                        img{
+                            width: 20%;
+                            height: 20%;
+                            position: relative;
+                            left: -400px;
+                        }
+                    }
+                    .nav{
+                        position: relative;
+                        top: -100px;
+                        .Home{
+                            color: rgb(212, 209, 209);
+                            position: relative;
+                            bottom:-50px ;
+                            right: 300px;
+                        }
+                        .About{
+                            color: $acshan-color;
+                            margin-left: $margin-margin;
+                            position: relative;
+                            bottom: -50px;
+                            right: 300px;
+                        }
+                        .FAG{
+                            color: $acshan-color;
+                            margin-left: $margin-margin;
+                            position: relative;
+                            bottom: -50px;
+                            right: 300px;
+                        }
+                        .contact{
+                            color: $acshan-color;
+                            margin-left: $margin-margin;
+                            position: relative;
+                            bottom: -50px;
+                            right: 300px;
+                        }
+                        .shop{
+                            color: $acshan-color;
+                            margin-left: $margin-margin;
+                            position: relative;
+                            bottom: -50px;
+                            right: 300px;
+                        }
+                    }
+                    .ContactUs{
+                        width: 130px;
+                        height: 60px;
+                        color: $acshan-color;
+                        margin-right: $margin-margin;
+                        background-color: blue;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 50px;
+                        position: relative;
+                        left: 1100px;
+                        bottom: 100px;
+                    }
+                }
+            }
+            .contact{
+                .left-part{
+                    width: 30%;
+                    height: 25%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content:center ;
+                    align-items: center;
+                    position: relative;
+                    left: 10%;
+                    h1{
+                        font-size: 50px;
+                        display: flex;
+                        justify-content:center ;
+                        align-items: flex-start;
+                        color: aliceblue;
+                    }
+                    p{
+                        font-size: 20px;
+                        display: flex;
+                        justify-content:center ;
+                        align-items: flex-start;
+                        color: rgb(131, 131, 131);
+                    }
+                    .our{
+                        width: 130px;
+                        height: 60px;
+                        color: $acshan-color;
+                        margin-right: $margin-margin;
+                        background-color: rgb(255, 0, 0);
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 50px;
+                    }
+                    .ExploreMore{
+                        width: 130px;
+                        height: 60px;
+                        color: $acshan-color;
+                        margin-right: $margin-margin;
+                        background-color: blue;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 50px;
+                    }
+                }
+                .ret-part{
+                    display: flex;
+                    justify-content: flex-end;
+                    flex-direction: row;
+                    img{
+                        width: 400px;
+                        height: 400px;
+                        position: relative;
+                        right: 10%;
+                        margin-top: -13%;
+                    }
+                }
+            }
+        }
+    }
+}
+// .hero{
+//  flex-direction: column;
+// }

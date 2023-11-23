@@ -1,0 +1,147 @@
+main {
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Orbitron", sans-serif;
+  font-family: "Noto Sans Sogdian", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Oxanium", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: rgb(2, 3, 60);
+}
+body main .hero {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100vw;
+  height: 100vh;
+}
+body main .hero header nav {
+  font-size: 20px;
+}
+body main .hero header nav .img-icon img {
+  width: 20%;
+  height: 20%;
+  position: relative;
+  left: -400px;
+}
+body main .hero header nav .nav {
+  position: relative;
+  top: -100px;
+}
+body main .hero header nav .nav .Home {
+  color: rgb(212, 209, 209);
+  position: relative;
+  bottom: -50px;
+  right: 300px;
+}
+body main .hero header nav .nav .About {
+  color: rgb(187, 185, 185);
+  margin-left: 50px;
+  position: relative;
+  bottom: -50px;
+  right: 300px;
+}
+body main .hero header nav .nav .FAG {
+  color: rgb(187, 185, 185);
+  margin-left: 50px;
+  position: relative;
+  bottom: -50px;
+  right: 300px;
+}
+body main .hero header nav .nav .contact {
+  color: rgb(187, 185, 185);
+  margin-left: 50px;
+  position: relative;
+  bottom: -50px;
+  right: 300px;
+}
+body main .hero header nav .nav .shop {
+  color: rgb(187, 185, 185);
+  margin-left: 50px;
+  position: relative;
+  bottom: -50px;
+  right: 300px;
+}
+body main .hero header nav .ContactUs {
+  width: 130px;
+  height: 60px;
+  color: rgb(187, 185, 185);
+  margin-right: 50px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  position: relative;
+  left: 1100px;
+  bottom: 100px;
+}
+body main .hero .contact .left-part {
+  width: 30%;
+  height: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 10%;
+}
+body main .hero .contact .left-part h1 {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: aliceblue;
+}
+body main .hero .contact .left-part p {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: rgb(131, 131, 131);
+}
+body main .hero .contact .left-part .our {
+  width: 130px;
+  height: 60px;
+  color: rgb(187, 185, 185);
+  margin-right: 50px;
+  background-color: rgb(255, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+body main .hero .contact .left-part .ExploreMore {
+  width: 130px;
+  height: 60px;
+  color: rgb(187, 185, 185);
+  margin-right: 50px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+body main .hero .contact .ret-part {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+body main .hero .contact .ret-part img {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  right: 10%;
+  margin-top: -13%;
+}
+
+/*# sourceMappingURL=style.css.map */
